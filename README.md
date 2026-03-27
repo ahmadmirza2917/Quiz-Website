@@ -53,19 +53,8 @@ The application allows users to attempt multiple-choice questions with interacti
 
 Custom sound effects were added to enhance user interaction:
 
-* **Wrong Answer Sound:** “fahhhh.mp3” 😤
-* **Final Result Sound:** “end.mp3” 🎶
-
-### Implementation:
-
-* Sounds are stored in the `sounds/` folder
-* Loaded using JavaScript `Audio()` object
-* Played on specific events:
-
-  * Wrong answer → `fahhhh.mp3`
-  * Quiz completion → `end.mp3`
-
----
+* **Wrong Answer Sound 😤
+* **Final Result Sound 🎶
 
 ## 🧩 5. System Design
 
@@ -77,10 +66,7 @@ quiz-app/
 │── style.css
 │── script.js
 │── sounds/
-      ├── fahhhh.mp3
-      ├── end.mp3
-```
-
+     
 ---
 
 ### 🌐 HTML (Structure)
