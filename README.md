@@ -1,16 +1,150 @@
 # Quiz-Website
 Assignment 2
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-This project is a modern Quiz Application called “QuizMaster Pro” developed using HTML, CSS, JavaScript, and Bootstrap. The application provides an interactive and user-friendly interface for solving multiple-choice questions.
-The quiz shows one question at a time along with multiple options. It includes a timer with a circular progress ring and a progress bar to track quiz completion. Users can also see the number of correct and wrong answers in real time.
-The application supports category selection (HTML, CSS, JavaScript), allowing users to filter questions based on topics. It also includes dark mode and a mute button for better user experience.
-At the end of the quiz, a result screen is displayed showing:
-Total score percentage
-Number of correct and wrong answers
-Best streak
-Average time
-The app also includes animations like confetti and supports sound effects, making the quiz more engaging and fun.
-Overall, this project demonstrates how to build a responsive, interactive, and visually appealing web application using modern front-end technologies.
+📄 QUIZ APPLICATION DOCUMENTATION
+
+---
+
+📌 1. Introduction
+
+This project is a **responsive and interactive Quiz Application** developed using:
+
+* HTML
+* CSS
+* JavaScript
+* Bootstrap
+
+The application allows users to attempt multiple-choice questions with interactive features such as timer, progress tracking, sound effects, and result generation.
+
+---
+
+## 🎯 2. Objectives
+
+* Develop a **modern front-end application**
+* Implement **interactive UI using JavaScript**
+* Apply **responsive design principles**
+* Enhance user experience with **sound effects and animations**
+
+---
+
+## ⚙️ 3. Features
+
+### ✅ Core Features
+
+* Multiple-choice questions
+* Countdown timer ⏱️
+* Progress bar with colors 🎨
+* Dynamic answer highlighting (Correct/Wrong)
+* Responsive design (mobile + desktop)
+
+### 🚀 Advanced Features
+
+* Dark/Light mode 🌙☀️
+* Category selection
+* Randomized questions
+* Sound effects (custom user voice 😄)
+* Confetti animation 🎉
+* Local storage (quiz history)
+* PDF result download
+
+---
+
+## 🔊 4. Sound Effects Integration
+
+Custom sound effects were added to enhance user interaction:
+
+* **Wrong Answer Sound:** “fahhhh.mp3” 😤
+* **Final Result Sound:** “end.mp3” 🎶
+
+### Implementation:
+
+* Sounds are stored in the `sounds/` folder
+* Loaded using JavaScript `Audio()` object
+* Played on specific events:
+
+  * Wrong answer → `fahhhh.mp3`
+  * Quiz completion → `end.mp3`
+
+---
+
+## 🧩 5. System Design
+
+### 📁 Project Structure
+
+```id="cx10po"
+quiz-app/
+│── index.html
+│── style.css
+│── script.js
+│── sounds/
+      ├── fahhhh.mp3
+      ├── end.mp3
+```
+
+---
+
+### 🌐 HTML (Structure)
+
+* Contains layout of quiz
+* Includes:
+
+  * Question area
+  * Options
+  * Timer
+  * Progress bar
+  * Buttons
+
+---
+
+### 🎨 CSS (Styling)
+
+* Provides:
+
+  * Responsive layout
+  * Animations
+  * Dark mode
+  * Hover effects
+
+---
+
+### ⚙️ JavaScript (Logic)
+
+Handles:
+
+* Question loading
+* Answer checking
+* Timer control
+* Score calculation
+* Sound playing
+* Result display
+
+---
+
+## 🔄 6. Working Flow
+
+1. User opens the quiz
+2. Questions are randomized
+3. Timer starts automatically
+4. User selects an answer
+5. System:
+
+   * Highlights answer
+   * Plays sound
+6. After last question:
+
+   * Score is displayed
+   * Final sound plays
+   * Confetti animation appears
+
+---
+
+📊 7. Results
+
+The application successfully:
+
+* Provides interactive quiz experience
+* Works across devices
+* Enhances engagement using sound effects and animations
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Demo Video:
