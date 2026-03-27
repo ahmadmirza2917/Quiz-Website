@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuizMaster Pro</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+<div class="quiz-wrapper">
+  <div class="top-bar">
+    <div class="logo">⚡ QuizMaster</div>
+    <div class="top-actions">
+      <button class="icon-btn" id="muteBtn">🔊</button>
+      <button class="icon-btn" id="toggleMode">🌙</button>
+    </div>
+  </div>
+  <div class="quiz-card">
+    <div class="stats-row">
+      <div class="stat-pill"><div class="stat-label">Question</div><div class="stat-value accent" id="qCount">1/10</div></div>
+      <div class="stat-pill"><div class="stat-label">Correct</div><div class="stat-value correct" id="scoreCount">0</div></div>
+      <div class="stat-pill"><div class="stat-label">Wrong</div><div class="stat-value wrong" id="wrongCount">0</div></div>
+    </div>
+    <div class="timer-row">
+      <div class="timer-ring-wrap">
+        <svg viewBox="0 0 54 54">
+          <circle class="ring-bg" cx="27" cy="27" r="22"/>
+          <circle class="ring-fill" id="timerRing" cx="27" cy="27" r="22"/>
+        </svg>
+        <div class="timer-num" id="timeDisplay">30</div>
+      </div>
+      <div class="progress-wrap">
+        <div class="prog-label"><span>Progress</span><span id="progPct">0%</span></div>
+        <div class="prog-track"><div class="prog-fill" id="progressBar"></div></div>
+      </div>
+    </div>
+    <div class="cat-row">
+      <button class="cat-btn active" data-cat="all">All</button>
+      <button class="cat-btn" data-cat="html">HTML</button>
+      <button class="cat-btn" data-cat="css">CSS</button>
+      <button class="cat-btn" data-cat="js">JavaScript</button>
+    </div>
+    <div class="question-body" id="questionBody">
+      <div class="question-num" id="questionNum">Question 1</div>
+      <div class="question-text" id="questionText"></div>
+      <div class="options-grid" id="optionsGrid"></div>
+      <div class="explanation" id="explanation"></div>
+      <button class="next-btn" id="nextBtn">Next Question →</button>
+    </div>
+    <div class="result-screen" id="resultScreen">
+      <span class="result-emoji" id="resultEmoji">🎉</span>
+      <div class="result-title" id="resultTitle">Quiz Complete!</div>
+      <div class="result-sub" id="resultSub">Here's how you did</div>
+      <div class="score-ring-wrap">
+        <svg viewBox="0 0 130 130">
+          <circle class="score-ring-bg" cx="65" cy="65" r="55"/>
+          <circle class="score-ring-fill" id="scoreRing" cx="65" cy="65" r="55"/>
+        </svg>
+        <div class="score-center">
+          <div class="score-pct" id="scorePct">0%</div>
+          <div class="score-label">Score</div>
+        </div>
+      </div>
+      <div class="result-stats">
+        <div class="result-stat"><div class="r-stat-val correct" id="rCorrect">0</div><div class="r-stat-lbl">✅ Correct</div></div>
+        <div class="result-stat"><div class="r-stat-val wrong"   id="rWrong">0</div>  <div class="r-stat-lbl">❌ Wrong</div></div>
+        <div class="result-stat"><div class="r-stat-val accent"  id="rStreak">0</div> <div class="r-stat-lbl">🔥 Best Streak</div></div>
+        <div class="result-stat"><div class="r-stat-val"         id="rTime">—</div>   <div class="r-stat-lbl">⏱ Avg. Time</div></div>
+      </div>
+      <button class="restart-btn" id="restartBtn">🔄 Play Again</button>
+    </div>
+  </div>
+</div>
+<div class="toast-msg" id="toastMsg"></div>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+<script src="quiz.js"></script>
+</body>
+</html>
