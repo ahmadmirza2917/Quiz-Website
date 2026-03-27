@@ -45,7 +45,6 @@ The application allows users to attempt multiple-choice questions with interacti
 * Sound effects (custom user voice 😄)
 * Confetti animation 🎉
 * Local storage (quiz history)
-* PDF result download
 
 ---
 
