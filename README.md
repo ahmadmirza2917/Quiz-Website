@@ -1,7 +1,6 @@
 # Quiz-Website
 Assignment 2
-Project Description (Simple)
-
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 This project is a modern Quiz Application called “QuizMaster Pro” developed using HTML, CSS, JavaScript, and Bootstrap. The application provides an interactive and user-friendly interface for solving multiple-choice questions.
 The quiz shows one question at a time along with multiple options. It includes a timer with a circular progress ring and a progress bar to track quiz completion. Users can also see the number of correct and wrong answers in real time.
 The application supports category selection (HTML, CSS, JavaScript), allowing users to filter questions based on topics. It also includes dark mode and a mute button for better user experience.
@@ -12,6 +11,8 @@ Best streak
 Average time
 The app also includes animations like confetti and supports sound effects, making the quiz more engaging and fun.
 Overall, this project demonstrates how to build a responsive, interactive, and visually appealing web application using modern front-end technologies.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Demo Video:
 https://github.com/user-attachments/assets/f3150f09-0b1c-4a5c-94d9-5eb2215bcd03
 <img width="861" height="921" alt="Image" src="https://github.com/user-attachments/assets/15feeb78-b29f-4d33-997f-e4f6e3320681" />
