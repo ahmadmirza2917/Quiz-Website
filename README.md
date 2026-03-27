@@ -63,8 +63,8 @@ Custom sound effects were added to enhance user interaction:
 ```id="cx10po"
 quiz-app/
 │── index.html
-│── style.css
-│── script.js
+│── quiz.css
+│── quiz.js
 │── sounds/
      
 ---
