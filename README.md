@@ -135,6 +135,7 @@ The application successfully:
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Demo Video:
 https://github.com/user-attachments/assets/d037be06-db04-46ac-b38b-ba657f6afa29
+<img width="861" height="921" alt="Image" src="https://github.com/user-attachments/assets/47fa808c-00e8-42a9-b387-9bccccf392bb" />
 <img width="861" height="921" alt="Image" src="https://github.com/user-attachments/assets/fe822732-1bea-4790-b007-9959a0bfa9c0" />
 <img width="767" height="897" alt="Image" src="https://github.com/user-attachments/assets/91f3be77-105c-440f-a713-7fb97d4e63ff" />
 <img width="778" height="912" alt="Image" src="https://github.com/user-attachments/assets/af102653-a9b7-4d01-b40a-6601679fd92c" />
