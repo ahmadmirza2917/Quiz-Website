@@ -1,4 +1,4 @@
-# Quiz-Website
+Quiz-Website
 Assignment 2
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 📄 QUIZ APPLICATION DOCUMENTATION
@@ -18,7 +18,7 @@ The application allows users to attempt multiple-choice questions with interacti
 
 ---
 
-## 🎯 2. Objectives
+🎯 2. Objectives
 
 * Develop a **modern front-end application**
 * Implement **interactive UI using JavaScript**
@@ -27,9 +27,9 @@ The application allows users to attempt multiple-choice questions with interacti
 
 ---
 
-## ⚙️ 3. Features
+⚙️ 3. Features
 
-### ✅ Core Features
+ ✅ Core Features
 
 * Multiple-choice questions
 * Countdown timer ⏱️
@@ -37,7 +37,7 @@ The application allows users to attempt multiple-choice questions with interacti
 * Dynamic answer highlighting (Correct/Wrong)
 * Responsive design (mobile + desktop)
 
-### 🚀 Advanced Features
+🚀 Advanced Features
 
 * Dark/Light mode 🌙☀️
 * Category selection
@@ -48,16 +48,16 @@ The application allows users to attempt multiple-choice questions with interacti
 
 ---
 
-## 🔊 4. Sound Effects Integration
+🔊 4. Sound Effects Integration
 
 Custom sound effects were added to enhance user interaction:
 
 * **Wrong Answer Sound 😤
 * **Final Result Sound 🎶
 
-## 🧩 5. System Design
+🧩 5. System Design
 
-### 📁 Project Structure
+📁 Project Structure
 
 ```id="cx10po"
 quiz-app/
@@ -68,7 +68,7 @@ quiz-app/
      
 ---
 
-### 🌐 HTML (Structure)
+🌐 HTML (Structure)
 
 * Contains layout of quiz
 * Includes:
@@ -81,7 +81,7 @@ quiz-app/
 
 ---
 
-### 🎨 CSS (Styling)
+🎨 CSS (Styling)
 
 * Provides:
 
@@ -92,7 +92,7 @@ quiz-app/
 
 ---
 
-### ⚙️ JavaScript (Logic)
+⚙️ JavaScript (Logic)
 
 Handles:
 
@@ -105,7 +105,7 @@ Handles:
 
 ---
 
-## 🔄 6. Working Flow
+🔄 6. Working Flow
 
 1. User opens the quiz
 2. Questions are randomized
